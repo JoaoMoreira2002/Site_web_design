@@ -201,6 +201,7 @@ svg {
     text-align: center;
     color: white;
     font-size: 0.8vw;
+    margin-top: 4vw;
 }
 .responsive_img {
     background-size: 100% 100%;
@@ -280,7 +281,7 @@ svg {
     background-image: url(img/frango.png);
 }
 .img_livro {
-    background-image: url(img/so.jpg);
+    background-image: url(img/learn_more.jpg);
 }
 
 .teste {
