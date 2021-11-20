@@ -382,19 +382,19 @@ div.pelo_brasil h3 :hover {
 .img26 {
     background-image: url(img/CENTRO_MARROM.jpg);
 }
-
+/*
 footer {
     height: 27vw;
     background-color: #f28b0c;
     width: 100%;
     color: white;
-}
-.centro_pe {
+}*/
+/*.centro_pe {
     width: 78vw;
     margin: auto;
     display: flex;
-}
-.part_logo {
+}*/
+/*.part_logo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -405,17 +405,17 @@ footer {
     height: 5vw;
     margin-bottom: 0.5vw;
     margin-top: 1vw;
-}
-.logo_img {
+}*/
+/*.logo_img {
     width: 7vw;
-}
-.logo_div {
+}*/
+/*.logo_div {
     display: flex;
     flex-direction: column;
     width: 50%;
     margin-top: 4vw;
-}
-.navegacao {
+}*/
+/*.navegacao {
     display: flex;
     width: 50%;
 }
@@ -426,8 +426,8 @@ footer {
 .navegacao p {
     font-size: 0.8vw;
     margin-bottom: 0.4vw;
-}
-.part_2 { 
+}*/
+/*.part_2 { 
     padding-right: 3vw; 
     width: 35%; 
     margin-top: 9vw;
@@ -443,8 +443,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.cadastra {
+}*/
+/*.cadastra {
     padding: 7px;
     border-radius: 20px;
     border: 2px solid white;
@@ -459,7 +459,7 @@ footer {
     color: #f28b0c;
     cursor: pointer;
     transition-duration: 0.5s;
-}
+}*/
 .regula {
     padding: 7px;
     border-radius: 20px;
@@ -567,18 +567,18 @@ footer {
     .part_3 { 
         width: 62px; 
     } 
-    .cadastra { 
+    /*.cadastra { 
         padding: 3px; 
-    } 
+    }*/ 
     .regula { 
         padding: 3px; 
     } 
-    .navegacao { 
+    /*.navegacao { 
         width: 60%; 
-    } 
-    .logo_div { 
+    } */
+    /*.logo_div { 
         width: 40%; 
-    }
+    }*/
     
 
     /*Footer*/
@@ -811,44 +811,42 @@ footer {
     }
     /*Footer*/
 
-    footer {
+    /*footer {
         height: 60vw;
-
-    }
-    .logo_img{
+    }*/
+    /*.logo_img{
         display: none;
-    }
+    }*/
     .apaga{
         display: none;
     }
-    .f2{
+    /*.f2{
         display: none;
-    }
-    .part_1 p{
+    }*/
+    /*.part_1 p{
         display: none;
     }
     .part_2 p{
         display: none;
-    }
-    .centro_pe {
+    }*/
+    /*.centro_pe {
         flex-direction: column;
-    }
-    .navegacao {
+    }*/
+    /*.navegacao {
         display: flex;
         flex-direction: column;
-    }
-    .logo_div {
+    }*/
+    /*.logo_div {
         width: 100%;
-    }
-    .part_logo p{
+    }*/
+    /*.part_logo p{
         font-size: 3.1vw;
         height: 5vw;
         border-bottom: 1px;
         border-color: #1b1b1b91;
         border-bottom-style: solid;
-
-    }
-    .part_1 {
+    }*/
+    /*.part_1 {
         padding-right: 0vw;
         width: 100%;
         margin-top: 2vw;
@@ -865,23 +863,23 @@ footer {
         border-bottom: 1px;
         border-color: #1b1b1b91;
         border-bottom-style: solid;
-    }
-    .navegacao {
+    }*/
+    /*.navegacao {
         width: 100%;
         height: 40vw;
-    }
+    }*/
     .part_3{
         margin: auto;
         margin-top: 3vw;
         width: 27vw;
     }
-    .navegacao h4 {
+    /*.navegacao h4 {
         font-size: 3.1vw;
-    }
-    .cadastra {
+    }*/
+    /*.cadastra {
         padding: 1.8vw;
         font-size: 2.8vw !important;
-    }
+    }*/
     .regula {
         padding: 2.8vw;
         font-size: 1.8vw  !important;
