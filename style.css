@@ -545,11 +545,18 @@ Segunda página
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+.ajuste_capa4
+{
+    height: 38vw;
+    background-image: url(img/capa_fitness.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 .img_capa_doce
 {
         height: 22vw;
         width: 16vw;
-        background-image: url(img/capa_salada_2.jpg);
+        background-image: url(img/capa_doce_2.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         float: right;
@@ -561,7 +568,19 @@ Segunda página
 {
         height: 22vw;
         width: 16vw;
-        background-image: url(img/);
+        background-image: url(img/capa_salada_2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: right;
+        margin-left: 46vw;
+        border: 4px solid black;
+        box-shadow: 5px 4px 7px;
+}
+.img_capa_fitness
+{
+        height: 22vw;
+        width: 16vw;
+        background-image: url(img/capa_fitness_2.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         float: right;
@@ -810,6 +829,10 @@ Segunda página
     {
         margin-left: -16vw;
     }
+    .img_capa_fitness
+    {
+        margin-left: -16vw;
+    }
 
 
     /*
@@ -882,6 +905,12 @@ Segunda página
         justify-content: center;
         align-items: center;
     } 
+    .ajuste_capa4 { 
+        height: 80vw; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .img_capa2 { 
         display: none 
     }
@@ -890,6 +919,10 @@ Segunda página
         display: none;
     }
     .img_capa_salada
+    {
+        display: none;
+    }
+    .img_capa_fitness
     {
         display: none;
     }
