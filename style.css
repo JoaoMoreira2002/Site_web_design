@@ -516,7 +516,195 @@ footer {
     transition-duration: 0.3s
 }
 
+
+/*
+
+
+
+
+
+Segunda página
+
+
+
+
+
+
+*/
+.ajuste_capa2
+{
+    height: 38vw;
+    background-image: url(img/capa_doce.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ajuste_capa3
+{
+    height: 38vw;
+    background-image: url(img/cap_salada.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.img_capa_doce
+{
+        height: 22vw;
+        width: 16vw;
+        background-image: url(img/capa_salada_2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: right;
+        margin-left: 46vw;
+        border: 4px solid black;
+        box-shadow: 5px 4px 7px;
+}
+.img_capa_salada
+{
+        height: 22vw;
+        width: 16vw;
+        background-image: url(img/);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: right;
+        margin-left: 46vw;
+        border: 4px solid black;
+        box-shadow: 5px 4px 7px;
+}
+.ajuste_catalog_preparo
+{
+    height: 100vw;
+    background-color: white;
+    
+}
+.titulo_preparo
+{
+    margin-left: 4vw;
+    font-size: 3vw;
+}
+.ingredientes_layout 
+{
+    display: flex;
+}
+.torta_morango
+{
+    height: 20vw;
+    width: 20vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 3vw;
+    border: 0.3vw solid #f28b0c;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.torta_morango h3
+{
+    border: 0.1vw solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.438);
+    font-size: 1.7vw;
+}
+.ingredientes_preparo
+{
+    width: 50vw;
+}
+.nome_preparo
+{
+    background-color: #f28b0c;
+    width: 100%;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+    margin-bottom: 0.5vw;
+}
+.texto_preparo
+{
+    margin-left: 2vw;
+    color: black;
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+.ajuste_ingre{
+    display: flex;
+    font-weight: 450;
+}
+.ajuste_ingre1
+{
+    width: 50%;
+}
+.ajuste_ingre2
+{
+    margin-left: 2vw;
+}
+.ingre_tit
+{
+    margin-left: 2vw;
+}
+.ingre_tit h4 
+{
+    font-size: 2vw;
+}
+.ajuste_ingre p
+{
+    font-size: 1vw;
+    margin-bottom: 0.8vw;
+}
+.button_preparo
+{
+    margin-left: 35vw;
+    margin-top: 3vw;  
+    width: 10vw;
+    background-color: #f4511e;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1vw;
+    padding: 10px;
+}
+ 
+  .apresentacao_white h2 {
+    font-size: 2vw;
+    height: 3vw;
+    color: white;
+}
+.apresentacao_white p {
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .ajuste_catalog_preparo {
+        height: 105vw;
+    }
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 780px) {
+
+
+    .ajuste_catalog_preparo {
+        height: 112vw;
+    }
+    .button_preparo {
+        margin-left: 42.5vw;
+    }
+
+
+
 
     .ajuste_semana {
         height: 40vw;
@@ -614,17 +802,96 @@ footer {
     .img_capa2 { 
         margin-left: -16vw; 
     }
+    .img_capa_doce
+    {
+        margin-left: -16vw;
+    }
+    .img_capa_salada
+    {
+        margin-left: -16vw;
+    }
+
+
+    /*
+
+
+
+
+
+
+
+
+
+
+    segunda parte
+
+
+
+
+
+
+    */
+
+    .ingredientes_preparo {
+        width: 71vw;
+    }
+    .button_preparo
+    {
+        width: 14vw;
+    }
 }
+
+
+
+@media screen and (max-width: 580px) {
+
+
+    .ajuste_catalog_preparo {
+        height: 122vw;
+    }
+}
+@media screen and (max-width: 490px) {
+
+
+    .ajuste_catalog_preparo {
+        height: 128vw;
+    }
+}
+
+
+
 @media screen and (max-width: 430px) {
 
 /*cabecalho*/
 
-
+    .button_preparo{
+        display: none;
+    }
     .ajuste_capa { 
         height: 80vw; 
     } 
+    .ajuste_capa2 { 
+        height: 80vw; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .ajuste_capa3 { 
+        height: 80vw; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
     .img_capa2 { 
         display: none 
+    }
+    .img_capa_doce
+    {
+        display: none;
+    }
+    .img_capa_salada
+    {
+        display: none;
     }
     .margin-center { 
         margin: auto; 
@@ -887,6 +1154,12 @@ footer {
 
 }
 
+
+@media screen and (max-width: 370px) {
+    .ajuste_catalog_preparo {
+        height: 146vw;
+    }
+}
 
 
     
